@@ -21,6 +21,7 @@ public class Save extends ActionSupport{
 	{
 	
 	try{
+		System.out.println("Test comment");
 	Class.forName("oracle.jdbc.driver.OracleDriver"); 
     java.sql.Connection con =DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","system","admin");
 	
